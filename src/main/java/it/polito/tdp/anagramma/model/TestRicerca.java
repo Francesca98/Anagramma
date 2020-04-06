@@ -8,6 +8,8 @@ public class TestRicerca {
 		Ricerca ric = new Ricerca() ;
 		
 		List<String> ana_dog = ric.anagrammi("dog") ;
+		
+			System.out.println(ana_dog.size()) ;
 		System.out.println(ana_dog) ;
 		
 		List<String> ana_vac = ric.anagrammi("vacanze") ;
